@@ -6,7 +6,7 @@
     Converted Sass's Bolt Movement on MW2 to BO1. Partial credits to Antiga for conversion.
 
     - On connect, call: self.pers["poscount"] = 0;
-    - On spawn, call: self.boltSpeed = 5;
+    - On spawn, call: self.boltSpeed = 5; and setDvar("cg_nopredict", 0);
 
     Function Set:
     - cycleBolt allows you to go through DPAD UP - DPAD RIGHT.
