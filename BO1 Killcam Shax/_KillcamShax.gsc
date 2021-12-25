@@ -6,7 +6,7 @@
     Killcam Shax for BO1 created by Antiga.
 
     On Spawn, call:
-        self.isNotShaxWeapon = true;
+        self.isNotShaxWeapon = false;
         self.shineShaxGunCheck = 0;
         self.shaxTakeaway = 0;
         self.shaxbindnum = 0;
