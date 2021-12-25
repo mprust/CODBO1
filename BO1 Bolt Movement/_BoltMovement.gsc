@@ -7,10 +7,12 @@
 
     - On connect, call: 
         if(!isDefined(player.pers["poscount"]))
-			player.pers["poscount"] = 0;
+		player.pers["poscount"] = 0;
     
     - On spawn, call: 
         setDvar("cg_nopredict", 0);
+	self.bmNum = 0;
+	self.bmAction = "[{UNBOUND}]";
     
     Actual Function Sets:
     - saveBoltPos saves Bolt Movement points.
