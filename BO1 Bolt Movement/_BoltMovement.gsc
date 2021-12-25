@@ -13,7 +13,7 @@
     - On spawn, call: 
         setDvar("cg_nopredict", 0);
     
-    Connect:
+    Actual Function Sets:
     - saveBoltPos saves Bolt Movement points.
     - DeleteBoltPos deletes Bolt Movement points.
     - cycleBolt goes through all DPAD's for Bolt Movement.
