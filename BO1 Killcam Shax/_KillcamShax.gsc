@@ -17,7 +17,6 @@
         self.secondaryCWeapon can be dined as your secondary.
 
     Functions:
-
     - cycleShaxBind allows for DPAD Cyling.
     - selectShaxWeapon cycles through the list of shaxable weapons.
     - All other functions are working in conjuction with one another.
